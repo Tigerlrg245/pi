@@ -1,5 +1,12 @@
 # Development Rules
 
+## Workshop fork orientation
+
+For fork-specific work, read `docs/README.entrypoint.md` before changing the
+Workshop source or ASDS. Keep upstream changes minimal and keep private runtime
+state/assets outside this public repository. Workshop development is on the
+`workshop` branch; `main` tracks upstream.
+
 ## Conversational Style
 
 - Keep answers short and concise

@@ -12,6 +12,15 @@
 
 # Pi
 
+## Workshop fork
+
+This fork keeps upstream Pi intact while adding a small surplus-capacity work
+controller. `main` follows upstream; `workshop` owns the additions. Start at
+[Workshop ASDS](docs/README.entrypoint.md) for implementation status, persistent
+control policy, remote execution and the feedback workflow. This is not yet a
+deployed or qualified autonomous service. Private assets and runtime state do
+not belong in this public repository.
+
 Pi is a minimal, extensible agent harness that you can make your own.
 
 Adapt Pi to your workflows, not the other way around. Customize Pi with [extensions](packages/coding-agent/docs/extensions.md), [skills](packages/coding-agent/docs/skills.md), [prompt templates](packages/coding-agent/docs/prompt-templates.md), and [themes](packages/coding-agent/docs/themes.md). Bundle them as [Pi packages](packages/coding-agent/docs/packages.md) and share via npm or git.
